@@ -1,0 +1,22 @@
+{{ partial "head.html" . }}
+{{ partial "top.html" . }}
+<div id="main_content">
+
+{{ range .Params.projects }}
+<div class="post_wrap">
+  <div class="home_video_thumb">
+    <img width="100" height="100" src="{{ .Image }}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="{{ .title }}" />
+  </div>
+  <h2>{{ .Title }}</h2>
+  <p>{{ .Subtitle }}</p>
+</div>
+{{end}}
+
+
+  <div id="post-331" class="entry">
+  </div>
+
+</div>
+{{ partial "sidebar.html" . }}
+
+{{ partial "foot.html" . }}
