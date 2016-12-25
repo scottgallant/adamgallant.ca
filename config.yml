@@ -1,0 +1,11 @@
+---
+languageCode: "en-us"
+baseURL: "http://adamgallant.ca/"
+title: "Adam Gallant"
+permalinks:
+  post: /:year/:month/:title/
+params:
+  Subtitle: "Some subtitle"
+  AuthorName: "Scott Gallant"
+  GitHubUser: "scottgallant"
+---
