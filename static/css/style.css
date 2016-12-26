@@ -112,10 +112,10 @@ html { -webkit-font-smoothing: antialiased; }
 
 
 /* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
-a:active { outline: none; }
+a, a:active { outline: 0 !important; }
 a:focus { outline: thin dotted; }
 
-a, a:active, a:visited { color:#607890; }
+a, a:active, a:visited { color:#607890; outline: 0; }
 a:hover { color:#036; }
 
 
@@ -212,10 +212,6 @@ header {
 	padding-top: 30px;
 }
 
-html {
-		background: black url(images/bg_repeat_02.jpg) left top repeat-x;
-}
-
 body {
 	background: black;
 	color: #ddd;
@@ -236,7 +232,7 @@ h1 {
 }
 
 #main_content {
-	width: 500px;
+	width: 510px;
 	float: right;
 	padding-top: 8px;
 }
@@ -283,16 +279,19 @@ h1 {
 	width: 120px;
 	text-align: center;
 	font-size: 10px;
-	height: 220px;
+	min-height: 200px;
 	overflow: hidden;
 	font-family: courier;
 	line-height: 15px;
+  margin: .3em;
 }
 
 .post_wrap h2 {
 	font-size: 14px;
 	font-weight: normal;
 	color: white;
+  margin-bottom: .3em;
+  margin-top: .3em;
 }
 
 a, a:link, a:visited {
@@ -301,16 +300,21 @@ a, a:link, a:visited {
 }
 
 #sidebar_wrap li a {
-	font-size: 22px;
+	font-size: 20px;
+  color: rgba(221, 221, 221, 0.79);
 }
 
 #sidebar_wrap li a:hover {
 	margin-right: -5px;
 }
 
-li.current-cat a, li.current_page_item a {
-	font-size: 33px !important;
-	color: white;
+#sidebar_wrap li.current-cat a, li.current_page_item a {
+	font-size: 25px !important;
+	color: white !important;
+}
+
+#sidebar_wrap li.current-cat a:hover, li.current_page_item a:hover {
+	margin-right: 0 !important;
 }
 
 .login_link a {
@@ -318,7 +322,7 @@ li.current-cat a, li.current_page_item a {
 	width: 32px;
 	height: 32px;
 	text-indent: -9999px;
-	background: transparent url(images/radio32.png) left -29px no-repeat;
+	background: transparent url(/images/radio32.png) left -29px no-repeat;
 	position: fixed;
 	bottom: 20px;
 	right: 20px;

@@ -2,9 +2,8 @@
 menu:
   main:
 projects:
-  one:
-    Image: "something.jpg"
-    Title: "Some title"
-    Subtitle: "Some sub title"
+  - Image: ""
+    Title: ""
+    Subtitle: ""
 type: "projects"
 ---
