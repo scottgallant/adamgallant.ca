@@ -9,9 +9,4 @@ params:
   Subtitle: "Some subtitle"
   AuthorName: "Scott Gallant"
   GitHubUser: "scottgallant"
-menu:
-  main:
-    name: "Home"
-    url: "/"
-    weight:  "0"
 ---
