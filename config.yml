@@ -1,12 +1,11 @@
 ---
-languageCode: "en-us"
-baseURL: "http://adamgallant.ca/"
-title: "Adam Gallant | Audio Engineer / Mixer / Musician"
-MetaDataFormat: "yaml"
-permalinks:
-  projects: /year/:filename/
+languageCode: en-us
+baseURL: http://adamgallant.ca/
+title: Adam Gallant | Audio Engineer / Mixer / Musician
+MetaDataFormat: yaml
 params:
-  Subtitle: "Some subtitle"
-  AuthorName: "Scott Gallant"
-  GitHubUser: "scottgallant"
----
+  AuthorName: Scott Gallant
+  GitHubUser: scottgallant
+  Subtitle: Some subtitle
+permalinks:
+  projects: "/year/:filename/"
