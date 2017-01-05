@@ -1,6 +1,6 @@
 ---
 menu:
-  main:
+  main: ""
 projects:
   - Image: ""
     Title: ""
