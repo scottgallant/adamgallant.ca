@@ -3,14 +3,15 @@ languageCode: en-us
 baseURL: http://adamgallant.ca/
 title: Adam Gallant | Audio Engineer / Mixer / Musician
 MetaDataFormat: yaml
-menu:
-  main:
-  - name: '2017'
-    url: "/"
-    weight: 0
 params:
   AuthorName: Scott Gallant
   GitHubUser: scottgallant
   Subtitle: Some subtitle
+menu:
+  main:
+  - !ruby/hash:InsensitiveHash
+    name: '2017'
+    url: "/"
+    weight: 0
 permalinks:
   projects: "/year/:filename/"
