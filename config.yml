@@ -7,8 +7,7 @@ menu:
   main:
   - name: '2017'
     url: "/"
-    weight: 0
-    parent: item_Am_esAo
+    weight: 2
 params:
   AuthorName: Scott Gallant
   GitHubUser: scottgallant
