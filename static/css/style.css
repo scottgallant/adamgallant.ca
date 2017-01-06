@@ -237,6 +237,10 @@ h1 {
 	padding-top: 8px;
 }
 
+#main_content img {
+  max-width: 100%;
+}
+
 #sidebar_wrap {
 	float: left;
 	width: 250px;
