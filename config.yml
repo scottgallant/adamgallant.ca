@@ -7,10 +7,5 @@ params:
   AuthorName: Scott Gallant
   GitHubUser: scottgallant
   Subtitle: Some subtitle
-menu:
-  main:
-    name: '2017'
-    url: "/"
-    weight: 0
 permalinks:
   projects: "/year/:filename/"
