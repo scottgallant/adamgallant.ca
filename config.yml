@@ -9,7 +9,6 @@ params:
   Subtitle: Some subtitle
 menu:
   main:
-  - !ruby/hash:InsensitiveHash
     name: '2017'
     url: "/"
     weight: 0
