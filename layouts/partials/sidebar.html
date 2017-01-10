@@ -7,8 +7,8 @@
 	{{ $currentPage := . }}
 	{{ range .Site.Menus.main }}
 		<li class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} current_page_item {{end}}"><a href="{{ .URL }}">{{ .Name }}</a></li>
-	{{end}}	
-
+	{{end}}
+		<li class="{{ if .IsHome }}current_page_item {{end}}"><a href="/">Info</a></li>
 
 
 
