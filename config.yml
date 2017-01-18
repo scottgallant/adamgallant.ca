@@ -4,8 +4,8 @@ baseURL: http://adamgallant.ca/
 title: Adam Gallant | Audio Engineer / Mixer / Musician
 MetaDataFormat: yaml
 params:
-  AuthorName: Scott Gallant
-  GitHubUser: scottgallant
-  Subtitle: Some subtitle
+  authorname: Scott Gallant
+  githubuser: scottgallant
+  subtitle: Some subtitle
 permalinks:
   projects: "/year/:filename/"
