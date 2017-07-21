@@ -1,0 +1,6 @@
+---
+- name: type
+  default: text-page
+  label: Type
+  type: ''
+  hidden: false

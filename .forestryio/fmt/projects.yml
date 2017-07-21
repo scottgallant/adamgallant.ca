@@ -1,0 +1,50 @@
+---
+- name: title
+  default: '2004'
+  label: Title
+  type: ''
+  hidden: false
+- name: date
+  default: '2016-12-25T12:01:32-04:00'
+  label: Date
+  type: ''
+  hidden: false
+- name: projects
+  default:
+  - Image: "/images/recordingarts-planplanplan--150x150.png"
+    Title: NSCC – Recording Arts ’04
+    Subtitle: Final Class CD project
+  - Image: "/images/alanbenjamin-constellations-150x150.png"
+    Title: Alan Benjamin
+    Subtitle: Constellations
+  - Image: "/images/radarfame-sharks-2004-150x150.jpg"
+    Title: radarfame
+    Subtitle: sharks EP
+  - Image: "/images/ruthmathiang-butterfly2004-150x150.png"
+    Title: Ruth Mathiang
+    Subtitle: Butterfly
+  label: Projects
+  type: ''
+  fields:
+  - name: Image
+    default: ''
+    label: Image
+    type: ''
+    hidden: false
+  - name: Title
+    default: ''
+    label: Title
+    type: ''
+    hidden: false
+  - name: Subtitle
+    default: ''
+    label: Subtitle
+    type: ''
+    hidden: false
+  hidden: false
+  description: This is a list of projects for the year
+- name: type
+  default: projects
+  label: Type
+  type: ''
+  hidden: true

@@ -1,0 +1,6 @@
+---
+- name: draft
+  default: false
+  label: Draft
+  type: ''
+  hidden: false
