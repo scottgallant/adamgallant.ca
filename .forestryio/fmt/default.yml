@@ -2,5 +2,5 @@
 - name: draft
   default: false
   label: Draft
-  type: ''
+  type: boolean
   hidden: false

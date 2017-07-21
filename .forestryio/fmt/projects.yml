@@ -2,12 +2,12 @@
 - name: title
   default: '2004'
   label: Title
-  type: ''
+  type: text
   hidden: false
 - name: date
   default: '2016-12-25T12:01:32-04:00'
   label: Date
-  type: ''
+  type: datetime
   hidden: false
 - name: projects
   default:
@@ -24,7 +24,7 @@
     Title: Ruth Mathiang
     Subtitle: Butterfly
   label: Projects
-  type: ''
+  type: field_group_list
   fields:
   - name: Image
     default: ''
@@ -34,17 +34,17 @@
   - name: Title
     default: ''
     label: Title
-    type: ''
+    type: text
     hidden: false
   - name: Subtitle
     default: ''
     label: Subtitle
-    type: ''
+    type: text
     hidden: false
   hidden: false
   description: This is a list of projects for the year
 - name: type
   default: projects
   label: Type
-  type: ''
+  type: text
   hidden: true
