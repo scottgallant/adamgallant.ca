@@ -1,0 +1,10 @@
+---
+sections: []
+pages: []
+hide_body: false
+fields:
+- name: draft
+  default: false
+  label: Draft
+  type: boolean
+  hidden: false
