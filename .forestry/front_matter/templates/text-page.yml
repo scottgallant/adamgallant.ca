@@ -1,0 +1,8 @@
+---
+hide_body: false
+fields:
+- name: type
+  default: text-page
+  label: Type
+  type: text
+  hidden: false
