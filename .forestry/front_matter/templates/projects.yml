@@ -1,0 +1,42 @@
+---
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: projects
+  label: Projects
+  type: field_group_list
+  fields:
+  - name: Image
+    label: Image
+    type: file
+    hidden: false
+    default: ''
+  - name: Title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: Subtitle
+    label: Subtitle
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default:
+  - Image: ''
+    Title: ''
+    Subtitle: ''
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: projects
