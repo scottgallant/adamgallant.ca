@@ -1,12 +1,18 @@
 ---
-upload_path: "/static/forestryio/images/"
-frontmatter_file_url_template: "/forestryio/images/"
-body_file_url_template: "/forestryio/images/"
 new_page_extension: md
 auto_deploy: false
 admin_path: "/admin/"
 webhook_url: 
 sections:
-  projects:
-    default_front_matter_template: projects
+- path: content
+  label: Pages
+  create: all
+- path: content/projects
+  label: Projects
+  create: all
+upload_dir: static/forestryio/images
+public_path: "/forestryio/images"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
 version: '0.19'
