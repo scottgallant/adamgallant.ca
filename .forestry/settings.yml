@@ -5,9 +5,11 @@ admin_path: "/admin/"
 webhook_url: 
 sections:
 - path: content/projects
-  label: Projectz
+  label: Projects
   create: all
   default_front_matter_template: projects
+  templates:
+  - projects
 upload_dir: static/forestryio/images
 public_path: "/forestryio/images"
 front_matter_path: ''
