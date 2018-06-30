@@ -10,6 +10,8 @@ sections:
   default_front_matter_template: projects
   templates:
   - projects
+- path: content
+  hidden: true
 upload_dir: static/forestryio/images
 public_path: "/forestryio/images"
 front_matter_path: ''
