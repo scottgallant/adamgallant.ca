@@ -5,7 +5,7 @@ admin_path: "/admin/"
 webhook_url: 
 sections:
 - path: content/projects
-  label: Projects
+  label: Projectz
   create: all
 upload_dir: static/forestryio/images
 public_path: "/forestryio/images"
