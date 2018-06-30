@@ -12,3 +12,5 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+data_files:
+- data/home.toml
