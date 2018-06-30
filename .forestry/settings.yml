@@ -7,10 +7,12 @@ sections:
 - path: content/projects
   label: Projects
   create: all
-  default_front_matter_template: projects
   templates:
   - projects
+  default_front_matter_template: projects
 - path: content
+  label: Pages
+  create: all
   hidden: true
 upload_dir: static/forestryio/images
 public_path: "/forestryio/images"

@@ -51,5 +51,3 @@ fields:
   label: Type
   type: text
   hidden: true
-pages:
-- content/projects/2018.md
