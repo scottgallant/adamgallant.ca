@@ -1,6 +1,6 @@
 ---
+label: projects
 hide_body: true
-is_partial: false
 fields:
 - name: title
   default: '2004'
@@ -8,7 +8,7 @@ fields:
   type: text
   hidden: false
 - name: date
-  default: 2016-12-25 12:01:32 -0400
+  default: 2016-12-25 16:01:32 +0000
   label: Date
   type: datetime
   hidden: false
@@ -51,3 +51,19 @@ fields:
   label: Type
   type: text
   hidden: true
+pages:
+- content/projects/2010.html
+- content/projects/2017.md
+- content/projects/2009.html
+- content/projects/2015.html
+- content/projects/2014.html
+- content/projects/2008.html
+- content/projects/2012.html
+- content/projects/2016.html
+- content/projects/2013.html
+- content/projects/2004.html
+- content/projects/2011.html
+- content/projects/2007.html
+- content/projects/2006.html
+- content/projects/2018.md
+- content/projects/2005.html
