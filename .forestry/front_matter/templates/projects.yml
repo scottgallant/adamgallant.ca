@@ -52,6 +52,7 @@ fields:
   type: text
   hidden: true
 pages:
+- content/projects/2019.md
 - content/projects/2010.html
 - content/projects/2017.md
 - content/projects/2009.html
