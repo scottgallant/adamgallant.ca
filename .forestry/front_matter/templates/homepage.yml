@@ -5,6 +5,10 @@ fields:
 - type: textarea
   name: body
   label: body
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: text
   name: heading
   label: heading
