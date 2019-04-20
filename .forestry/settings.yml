@@ -12,6 +12,8 @@ sections:
   label: Projects
   create: all
   match: "**/*"
+  templates:
+  - projects
 upload_dir: static/forestryio/images
 public_path: "/forestryio/images"
 front_matter_path: "/forestryio/images"
