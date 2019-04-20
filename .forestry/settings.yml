@@ -9,7 +9,7 @@ sections:
   label: Homepage
 - type: directory
   path: content/projects
-  label: Years
+  label: Year
   create: documents
   match: "**/*"
   templates:
