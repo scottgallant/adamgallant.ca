@@ -3,7 +3,7 @@ label: projects
 hide_body: true
 fields:
 - name: title
-  default: '2004'
+  default: ''
   label: Title
   type: text
   hidden: false
