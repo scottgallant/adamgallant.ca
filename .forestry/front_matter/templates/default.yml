@@ -7,3 +7,5 @@ fields:
   label: Draft
   type: boolean
   hidden: false
+pages:
+- content/projects/2019.md
