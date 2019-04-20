@@ -1,0 +1,10 @@
+---
+label: Homepage
+hide_body: true
+fields:
+- type: textarea
+  name: body
+  label: body
+- type: text
+  name: heading
+  label: heading
