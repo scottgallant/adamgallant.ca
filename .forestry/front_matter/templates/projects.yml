@@ -8,7 +8,7 @@ fields:
   type: text
   hidden: false
 - name: date
-  default: 2016-12-25 16:01:32 +0000
+  default: now
   label: Date
   type: datetime
   hidden: false
