@@ -4,11 +4,10 @@ auto_deploy: false
 admin_path: "/admin/"
 webhook_url: 
 sections:
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
+- type: document
+  path: data/home.toml
+  label: Homepage
+  match: "**/*"
 - type: directory
   path: content/projects
   label: Projects
