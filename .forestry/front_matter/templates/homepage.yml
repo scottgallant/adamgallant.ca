@@ -12,3 +12,5 @@ fields:
 - type: text
   name: heading
   label: heading
+pages:
+- data/home.toml
